@@ -9,8 +9,8 @@ body {
   line-height: 1.5;
   color: hsl(0, 0%, 59%);
   height: 100vh;
-  background: url('/assets/images/bg-pattern-top.svg'),
-    url('/assets/images/bg-pattern-bottom.svg'), hsl(185, 75%, 39%);
+  background: url('./assets/images/bg-pattern-top.svg'),
+    url('./assets/images/bg-pattern-bottom.svg'), hsl(185, 75%, 39%);
   background-size: cover;
   background-repeat: no-repeat, no-repeat;
   background-position: -24% 340%, 119% -340%;
@@ -36,7 +36,7 @@ body {
 }
 
 .profile-header {
-  background: url('/assets/images/bg-pattern-card.svg') no-repeat center center /
+  background: url('./assets/images/bg-pattern-card.svg') no-repeat center center /
     cover;
 }
 
